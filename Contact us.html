@@ -63,12 +63,27 @@ Description: A two-column, fixed-width design.
 	<li><a href="index.html">Home</a></li> 
 	<li><a href="form.html">Login</a></li> 
 	<li><a href="about.html">About</a></li> 
-		<li><a href="Contact us.html">Contact us</a></li>
+	<li><a href="Contact us.html">Contact us</a></li> 
   </ul> 
 </div> 
-				<div class="contentTitle"><h1>About Us</h1></div>
+				<div class="contentTitle"><h1>Contact Us</h1></div>
         <div class="contentText">
           <p>This template validates XHTML Strict 1.0 </p>
+		  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
           <p>&nbsp;</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p>
           <p>&nbsp;</p>
