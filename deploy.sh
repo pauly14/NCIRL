@@ -108,7 +108,7 @@ address         VARCHAR(30)   NOT NULL DEFAULT ''
 # insert test data into table fields 
 
 
-insert into custdetails (name,address) values ('Paul','Harrison')('Donna','Harrison');
+insert into custdetails (name,address) values ('Paul','Harrison');
 FINISH
 cd ..
 tar -czvf pre_test.tgz NCIRL
