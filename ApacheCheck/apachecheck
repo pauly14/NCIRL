@@ -1,8 +1,8 @@
 #!/bin/bash
 # fslyne 2013
 
-ADMINISTRATOR=jbloggs@domain.com
-MAILSERVER=mail1.eircom.net
+ADMINISTRATOR=pauly.harrison01@gmail.com
+MAILSERVER=mail1.gmail.com
 
 # Level 1 functions <---------------------------------------
 
